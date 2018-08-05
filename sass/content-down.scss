@@ -1,0 +1,75 @@
+.content-down {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 46px;
+  padding-bottom: 44px;
+  border-bottom: 2px solid #eee;
+
+  &__img {
+    &:hover {
+      content: url('../img/logo-1.png_copy.svg');
+    }
+
+    &--second {
+      &:hover {
+        content: url('../img/logo-2.png_copy.svg');
+      }
+    }
+
+    &--third {
+      &:hover {
+        content: url('../img/logo-3.png_copy.svg');
+      }
+    }
+
+    &--four {
+      &:hover {
+        content: url('../img/logo-4.png_copy.svg');
+      }
+    }
+  }
+}
+
+.delimiter {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 52px;
+    background-color: #eee;
+    top: 13px;
+    left: 250px;
+  }
+}
+
+.delimiter-center {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 52px;
+    background-color: #eee;
+    top: 24px;
+    left: 250px;
+  }
+}
+
+
+.delimiter-right {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 52px;
+    background-color: #eee;
+    top: 5px;
+    left: 250px;
+  }
+}

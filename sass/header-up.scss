@@ -1,0 +1,67 @@
+.header-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 49px;
+  margin-bottom: 18px;
+}
+
+.block-logo {
+  &__img {
+    &:active {
+      content: url('../img/nerds-logo-copy.svg');
+    }
+  }
+}
+
+.block-menu {
+  flex-basis: 45%;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+
+  list-style: none;
+
+  &__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+
+    &:hover {
+      // padding-bottom: 10px;
+      // border-bottom: 2px solid #fb565a;
+      color: #fb565a;
+    }
+
+    &:active {
+      color: rgba( #000000, 0.3);
+    }
+  }
+}
+
+
+.block-basket {
+
+  &__icon {
+    margin-right: 26px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #fb565a;
+    }
+  }
+}

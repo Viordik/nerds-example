@@ -1,0 +1,54 @@
+.adress {
+  position: absolute;
+  margin-left: 380px;
+  top: 42px;
+
+  max-width: 319px;
+  padding: 47px 49px;
+
+  background-color: #ffffff;
+  &__h2 {
+    padding-bottom: 32px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    padding-right: 10px;
+    padding-bottom: 37px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #666666;
+  }
+
+  &__link {
+    display: inline-block;
+    max-width: 219px;
+    padding: 19px 44px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    background-color: #fb565a;
+    border-radius: 6px;
+
+    &:hover {
+      background-color: #e74246;
+    }
+
+    &:active {
+      background-color: #d7373b;
+      color: rgba( #ffffff, 0.3);
+    }
+  }
+}
